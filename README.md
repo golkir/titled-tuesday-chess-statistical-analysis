@@ -4,6 +4,8 @@ This repository contains tools for statistical analysis of chess games played in
 
 ## Dataset
 
+- `./data/titled-tuesday.csv`: CSV-formatted "Titled Tuesday" dataset. You can use it if you don't want to run scraping script yourself.
+
 - `scrape_and_save.py`: This script retrieves game data from "Titled Tuesday" via chess.com API and web pages scraping, preprocesses it, and saves to MongoDB. The data includes games of all players who ranked 1-25 in any of the "Titled Tuesday" event.
 
 - `generate_dataset.py`: This script turns MongoDB players collection into Pandas DataFrame and then saves it as a `.csv` dataset.
